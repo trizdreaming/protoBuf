@@ -1,0 +1,39 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#include "MyPacket.pb.h"
+
+#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
+#include <google/protobuf/text_format.h>
+
+using namespace std;
+using namespace google;
+
+int main( void )
+{
+	MyPacket::Position inputPosition;
+	float testX = 1.1;
+	float testY = 1.2;
+	float testZ = 1.3;
+	inputPosition.set_x( testX );
+	inputPosition.set_y( testY );
+	inputPosition.set_z( testZ );
+
+	int bufSize = inputPosition.ByteSize();
+	char* outputBuf = new char[bufSize];
+
+	protobuf::io::ArrayOutputStream os( outputBuf, bufSize );
+	inputPosition.SerializeToZeroCopyStream( &os );
+
+	protobuf::io::ArrayInputStream is( outputBuf, bufSize );
+	MyPacket::Position outputPosition;
+	outputPosition.ParseFromZeroCopyStream( &is );
+
+	double x = outputPosition.x();
+
+	printf_s( "%f \n" );
+
+	getchar();
+	return 0;
+}

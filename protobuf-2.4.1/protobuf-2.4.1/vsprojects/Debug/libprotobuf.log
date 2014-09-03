@@ -1,0 +1,81 @@
+﻿Build started 2014-09-04 오전 12:36:16.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotobuf.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\importer.cc ..\src\google\protobuf\compiler\parser.cc ..\src\google\protobuf\descriptor.cc ..\src\google\protobuf\descriptor.pb.cc ..\src\google\protobuf\descriptor_database.cc ..\src\google\protobuf\dynamic_message.cc ..\src\google\protobuf\extension_set.cc ..\src\google\protobuf\extension_set_heavy.cc ..\src\google\protobuf\generated_message_reflection.cc ..\src\google\protobuf\generated_message_util.cc ..\src\google\protobuf\io\coded_stream.cc ..\src\google\protobuf\io\gzip_stream.cc ..\src\google\protobuf\io\printer.cc ..\src\google\protobuf\io\tokenizer.cc ..\src\google\protobuf\io\zero_copy_stream.cc ..\src\google\protobuf\io\zero_copy_stream_impl.cc ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\src\google\protobuf\message.cc ..\src\google\protobuf\message_lite.cc ..\src\google\protobuf\reflection_ops.cc ..\src\google\protobuf\repeated_field.cc ..\src\google\protobuf\service.cc ..\src\google\protobuf\stubs\common.cc ..\src\google\protobuf\stubs\once.cc ..\src\google\protobuf\stubs\structurally_valid.cc ..\src\google\protobuf\stubs\strutil.cc ..\src\google\protobuf\stubs\substitute.cc ..\src\google\protobuf\text_format.cc ..\src\google\protobuf\unknown_field_set.cc ..\src\google\protobuf\wire_format.cc ..\src\google\protobuf\wire_format_lite.cc
+         wire_format_lite.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(270): error C3861: 'min': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(303) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)' being compiled
+         wire_format.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(270): error C3861: 'min': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(303) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)' being compiled
+         unknown_field_set.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(603): error C3861: 'max': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(599) : while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(492) : see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(451) : while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(5113) : see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(2528) : see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int32>' being compiled
+         text_format.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(603): error C3861: 'max': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(599) : while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(492) : see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(451) : while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(5113) : see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(2528) : see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int32>' being compiled
+         substitute.cc
+         strutil.cc
+         structurally_valid.cc
+         once.cc
+         common.cc
+         service.cc
+         repeated_field.cc
+         reflection_ops.cc
+         message_lite.cc
+         message.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(603): error C3861: 'max': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(599) : while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(492) : see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(451) : while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(5113) : see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(2528) : see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int32>' being compiled
+         zero_copy_stream_impl_lite.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(66): error C3861: 'min': identifier not found
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(119): error C3861: 'min': identifier not found
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(166): error C3861: 'max': identifier not found
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(193): error C3861: 'min': identifier not found
+         zero_copy_stream_impl.cc
+         zero_copy_stream.cc
+         tokenizer.cc
+         printer.cc
+         gzip_stream.cc
+         Generating Code...
+         Compiling...
+         coded_stream.cc
+         generated_message_util.cc
+         generated_message_reflection.cc
+         extension_set_heavy.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(270): error C3861: 'min': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(303) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)' being compiled
+         extension_set.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(270): error C3861: 'min': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(303) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)' being compiled
+         dynamic_message.cc
+         descriptor_database.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(270): error C3861: 'min': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\wire_format_lite_inl.h(303) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)' being compiled
+         descriptor.pb.cc
+         descriptor.cc
+         parser.cc
+     1>c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(603): error C3861: 'max': identifier not found
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(599) : while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(492) : see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int32>::Reserve(int)' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\repeated_field.h(451) : while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const'
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(5113) : see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::int32>::size(void) const' being compiled
+                 c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\src\google\protobuf\descriptor.pb.h(2528) : see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int32>' being compiled
+         importer.cc
+         Generating Code...
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotobuf.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.67

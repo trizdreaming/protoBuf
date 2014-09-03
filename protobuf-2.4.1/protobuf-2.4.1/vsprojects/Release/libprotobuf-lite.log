@@ -1,0 +1,31 @@
+﻿Build started 2014-09-04 오전 12:37:56.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotobuf-lite.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\extension_set.cc ..\src\google\protobuf\generated_message_util.cc ..\src\google\protobuf\io\coded_stream.cc ..\src\google\protobuf\io\zero_copy_stream.cc ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\src\google\protobuf\message_lite.cc ..\src\google\protobuf\repeated_field.cc ..\src\google\protobuf\stubs\common.cc ..\src\google\protobuf\stubs\once.cc ..\src\google\protobuf\wire_format_lite.cc
+         extension_set.cc
+     1>..\src\google\protobuf\extension_set.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         generated_message_util.cc
+     1>..\src\google\protobuf\generated_message_util.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         coded_stream.cc
+     1>..\src\google\protobuf\io\coded_stream.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         zero_copy_stream.cc
+     1>..\src\google\protobuf\io\zero_copy_stream.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         zero_copy_stream_impl_lite.cc
+     1>..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         message_lite.cc
+     1>..\src\google\protobuf\message_lite.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         repeated_field.cc
+     1>..\src\google\protobuf\repeated_field.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         common.cc
+     1>..\src\google\protobuf\stubs\common.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         once.cc
+     1>..\src\google\protobuf\stubs\once.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         wire_format_lite.cc
+     1>..\src\google\protobuf\wire_format_lite.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotobuf-lite.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39

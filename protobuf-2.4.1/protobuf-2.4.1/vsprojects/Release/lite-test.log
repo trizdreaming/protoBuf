@@ -1,0 +1,16 @@
+﻿Build started 2014-09-04 오전 12:38:46.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\lite-test.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>CustomBuild:
+         Generating unittest_import_lite.pb.{h,cc}...
+         'Release\protoc'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+         배치 파일이 아닙니다.
+         Generating unittest_lite.pb.{h,cc}...
+         'Release\protoc'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+         배치 파일이 아닙니다.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: "cmd.exe" exited with code 9009.
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\lite-test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.15

@@ -1,0 +1,144 @@
+﻿Build started 2014-09-04 오전 12:38:02.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\msvc\gtest_main.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"protobuf/Release\gtest_main\\" /Fd"protobuf/Release\gtest_main\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gtest_main.cc
+         gtest_main.cc
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(709): error C2888: 'std::tuple_size<std::tr1::tuple<void,void,void,void,void,void,void,void,void,void>>' : symbol cannot be defined within namespace 'tr1'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(745): error C3855: 'std::tuple_element': template parameter '_Idx' is incompatible with the declaration
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(757): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(757): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(757): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(757): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(761): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(761): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(761): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(761): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(769): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(769): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(769): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(769): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(773): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(773): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(773): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(773): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(781): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(781): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(781): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(781): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(785): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(785): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(785): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(785): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(793): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(793): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(793): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(793): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(797): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(797): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(797): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(797): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(805): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(805): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(805): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(805): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(809): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(809): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(809): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(809): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(817): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(817): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(817): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(817): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(821): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(821): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(821): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(821): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(829): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(829): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(829): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(829): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(833): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(833): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(833): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(833): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(841): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(841): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(841): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(841): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(845): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(845): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(845): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(845): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(853): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(853): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(853): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(853): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(857): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(857): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(857): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(857): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(865): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(865): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(865): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(865): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(869): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(869): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(869): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(869): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(876): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(876): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(876): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(876): error C2977: 'std::tr1::gtest_internal::AddRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(126) : see declaration of 'std::tr1::gtest_internal::AddRef'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(882): error C2039: 'type' : is not a member of 'std::tuple_element'
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(742) : see declaration of 'std::tuple_element'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(882): error C2146: syntax error : missing ',' before identifier 'type'
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(882): error C2065: 'type' : undeclared identifier
+     1>C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(882): error C2977: 'std::tr1::gtest_internal::ByRef' : too many template arguments
+                 C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\include\gtest/internal/gtest-tuple.h(116) : see declaration of 'std::tr1::gtest_internal::ByRef'
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\gtest\msvc\gtest_main.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.40

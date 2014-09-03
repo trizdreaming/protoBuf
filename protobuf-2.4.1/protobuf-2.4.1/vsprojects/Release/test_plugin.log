@@ -1,0 +1,17 @@
+﻿Build started 2014-09-04 오전 12:38:45.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\test_plugin.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /I../gtest/include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\mock_code_generator.cc ..\src\google\protobuf\compiler\test_plugin.cc ..\src\google\protobuf\testing\file.cc
+         mock_code_generator.cc
+     1>..\src\google\protobuf\compiler\mock_code_generator.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         test_plugin.cc
+     1>..\src\google\protobuf\compiler\test_plugin.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         file.cc
+     1>..\src\google\protobuf\testing\file.cc : fatal error C1041: cannot open program database 'c:\users\maru\downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\test_plugin.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.25

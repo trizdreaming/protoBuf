@@ -1,0 +1,51 @@
+﻿Build started 2014-09-04 오전 12:38:15.
+     1>Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotoc.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I. /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOC_EXPORTS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\code_generator.cc ..\src\google\protobuf\compiler\command_line_interface.cc ..\src\google\protobuf\compiler\cpp\cpp_enum.cc ..\src\google\protobuf\compiler\cpp\cpp_enum_field.cc ..\src\google\protobuf\compiler\cpp\cpp_extension.cc ..\src\google\protobuf\compiler\cpp\cpp_field.cc ..\src\google\protobuf\compiler\cpp\cpp_file.cc ..\src\google\protobuf\compiler\cpp\cpp_generator.cc ..\src\google\protobuf\compiler\cpp\cpp_helpers.cc ..\src\google\protobuf\compiler\cpp\cpp_message.cc ..\src\google\protobuf\compiler\cpp\cpp_message_field.cc ..\src\google\protobuf\compiler\cpp\cpp_primitive_field.cc ..\src\google\protobuf\compiler\cpp\cpp_service.cc ..\src\google\protobuf\compiler\cpp\cpp_string_field.cc ..\src\google\protobuf\compiler\java\java_enum.cc ..\src\google\protobuf\compiler\java\java_enum_field.cc ..\src\google\protobuf\compiler\java\java_extension.cc ..\src\google\protobuf\compiler\java\java_field.cc ..\src\google\protobuf\compiler\java\java_file.cc ..\src\google\protobuf\compiler\java\java_generator.cc ..\src\google\protobuf\compiler\java\java_helpers.cc ..\src\google\protobuf\compiler\java\java_message.cc ..\src\google\protobuf\compiler\java\java_message_field.cc ..\src\google\protobuf\compiler\java\java_primitive_field.cc ..\src\google\protobuf\compiler\java\java_service.cc ..\src\google\protobuf\compiler\java\java_string_field.cc ..\src\google\protobuf\compiler\plugin.cc ..\src\google\protobuf\compiler\plugin.pb.cc ..\src\google\protobuf\compiler\python\python_generator.cc ..\src\google\protobuf\compiler\subprocess.cc ..\src\google\protobuf\compiler\zip_writer.cc
+         code_generator.cc
+         command_line_interface.cc
+     1>..\src\google\protobuf\compiler\command_line_interface.cc(913): error C2664: 'std::pair<std::string,std::string> std::make_pair<std::string,std::string>(_Ty1 &&,_Ty2 &&)' : cannot convert argument 1 from 'std::string' to 'std::string &&'
+                 with
+                 [
+                     _Ty1=std::string
+         ,            _Ty2=std::string
+                 ]
+                 You cannot bind an lvalue to an rvalue reference
+         cpp_enum.cc
+         cpp_enum_field.cc
+         cpp_extension.cc
+         cpp_field.cc
+         cpp_file.cc
+         cpp_generator.cc
+         cpp_helpers.cc
+         cpp_message.cc
+         cpp_message_field.cc
+         cpp_primitive_field.cc
+         cpp_service.cc
+         cpp_string_field.cc
+         java_enum.cc
+         java_enum_field.cc
+         java_extension.cc
+         java_field.cc
+         java_file.cc
+         java_generator.cc
+         Generating Code...
+         Compiling...
+         java_helpers.cc
+         java_message.cc
+         java_message_field.cc
+         java_primitive_field.cc
+         java_service.cc
+         java_string_field.cc
+         plugin.cc
+         plugin.pb.cc
+         python_generator.cc
+         subprocess.cc
+         zip_writer.cc
+         Generating Code...
+     1>Done Building Project "C:\Users\maru\Downloads\protobuf-2.4.1\protobuf-2.4.1\vsprojects\libprotoc.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:29.40
