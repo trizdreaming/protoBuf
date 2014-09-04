@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\maru\Downloads\protobuf-2.6.0\protobuf-2.6.0\src;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\maru\Downloads\protobuf-2.6.0\protobuf-2.6.0\vsprojects\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.4.1\protobuf-2.4.1\src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.4.1\protobuf-2.4.1\vsprojects\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

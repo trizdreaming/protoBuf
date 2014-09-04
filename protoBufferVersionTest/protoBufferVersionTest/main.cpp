@@ -13,15 +13,17 @@ using namespace google;
 int main( void )
 {
 	MyPacket::Position inputPosition;
-	float testX = 1.1;
-	float testY = 1.2;
-	float testZ = 1.3;
+	float testX = 1.1f;
+	float testY = 1.2f;
+	float testZ = 1.3f;
 	inputPosition.set_x( testX );
 	inputPosition.set_y( testY );
 	inputPosition.set_z( testZ );
 
 	int bufSize = inputPosition.ByteSize();
 	char* outputBuf = new char[bufSize];
+
+	memset( outputBuf, 0, sizeof( char )*bufSize );
 
 	protobuf::io::ArrayOutputStream os( outputBuf, bufSize );
 	inputPosition.SerializeToZeroCopyStream( &os );
@@ -30,9 +32,9 @@ int main( void )
 	MyPacket::Position outputPosition;
 	outputPosition.ParseFromZeroCopyStream( &is );
 
-	double x = outputPosition.x();
+	float x = outputPosition.x();
 
-	printf_s( "%f \n" );
+	printf_s( "%f \n", x );
 
 	getchar();
 	return 0;
