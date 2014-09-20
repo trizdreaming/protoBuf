@@ -16,6 +16,7 @@ int main( void )
 	float testX = 1.1f;
 	float testY = 1.2f;
 	float testZ = 1.3f;
+	
 	inputPosition.set_x( testX );
 	inputPosition.set_y( testY );
 	inputPosition.set_z( testZ );

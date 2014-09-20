@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.4.1\protobuf-2.4.1\src;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.4.1\protobuf-2.4.1\vsprojects\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.5.0\protobuf-2.5.0\src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Trizdreaming\Documents\GitHub\protoBuf\protobuf-2.5.0\protobuf-2.5.0\vsprojects\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -53,7 +53,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);_ITERATOR_DEBUG_LEVEL=0</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
